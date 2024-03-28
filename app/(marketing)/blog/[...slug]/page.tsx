@@ -50,8 +50,8 @@ export default async function PostPage({ params }: PostPageProps) {
             href="/"
             className={cn(buttonVariants({ variant: "ghost" }), "px-0")}
           >
-            <Icons.chevronLeft className="mr-2 h-4 w-4" />
-            See all posts
+            <Icons.chevronLeft className="mr-2 h-6 w-6" />
+            <div className="text-xl text-foreground">See all posts</div>
           </Link>
         </div>
         <div className="flex w-full items-center justify-center py-6 lg:py-10">

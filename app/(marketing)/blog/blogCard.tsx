@@ -60,7 +60,7 @@ export default function BlogCard({ post }: BlogCardProps) {
             </div>
           ) : null}
           {post.published_at && (
-            <div className="text-muted-foreground text-sm">
+            <div className="text-muted-foreground text-base">
               {formatDate(post.published_at)}
             </div>
           )}
